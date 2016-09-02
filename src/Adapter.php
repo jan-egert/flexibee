@@ -11,10 +11,10 @@ class Adapter extends \UniMapper\Adapter
     const CONTENT_JSON = "application/json";
     const CONTENT_XML = "application/xml";
 
-    const METHOD_GET = "get";
-    const METHOD_PUT = "put";
-    const METHOD_POST = "post";
-    const METHOD_DELETE = "delete";
+    const METHOD_GET = "GET";
+    const METHOD_PUT = "PUT";
+    const METHOD_POST = "POST";
+    const METHOD_DELETE = "DELETE";
 
     /** @var bool */
     public static $likeWithSimilar = true;
